@@ -1,12 +1,12 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import cv2
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import pandas as pd
 
 import warnings
+
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Konfigurasi halaman Streamlit
